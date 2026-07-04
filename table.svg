@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300">
+  
+  <!-- Background -->
+  <rect width="800" height="300" fill="#1a1a2e"/>
+  
+  <!-- Heading -->
+  <text x="20" y="40" font-family="Arial" 
+        font-size="20" fill="#00b4d8" font-weight="bold">
+    Server Performance Report
+  </text>
+  
+  <!-- Header Row Background -->
+  <rect x="10" y="55" width="780" height="35" fill="#00b4d8"/>
+  
+  <!-- Header Text -->
+  <text x="20" y="78" font-family="Arial" font-size="14" fill="white" font-weight="bold">Server Name</text>
+  <text x="300" y="78" font-family="Arial" font-size="14" fill="white" font-weight="bold">Response Time</text>
+  <text x="580" y="78" font-family="Arial" font-size="14" fill="white" font-weight="bold">Request Count</text>
+  
+  <!-- Row 1 -->
+  <rect x="10" y="90" width="780" height="35" fill="#16213e"/>
+  <text x="20" y="113" font-family="Arial" font-size="13" fill="white">Server-01</text>
+  <text x="300" y="113" font-family="Arial" font-size="13" fill="lightgreen">1.8ms</text>
+  <text x="580" y="113" font-family="Arial" font-size="13" fill="white">1,200,000</text>
+  
+  <!-- Row 2 -->
+  <rect x="10" y="125" width="780" height="35" fill="#0f3460"/>
+  <text x="20" y="148" font-family="Arial" font-size="13" fill="white">Server-02</text>
+  <text x="300" y="148" font-family="Arial" font-size="13" fill="lightgreen">2.1ms</text>
+  <text x="580" y="148" font-family="Arial" font-size="13" fill="white">980,000</text>
+  
+  <!-- Row 3 -->
+  <rect x="10" y="160" width="780" height="35" fill="#16213e"/>
+  <text x="20" y="183" font-family="Arial" font-size="13" fill="white">Server-03</text>
+  <text x="300" y="183" font-family="Arial" font-size="13" fill="orange">3.5ms</text>
+  <text x="580" y="183" font-family="Arial" font-size="13" fill="white">4,500,000</text>
+  
+  <!-- Row 4 -->
+  <rect x="10" y="195" width="780" height="35" fill="#0f3460"/>
+  <text x="20" y="218" font-family="Arial" font-size="13" fill="white">Server-04</text>
+  <text x="300" y="218" font-family="Arial" font-size="13" fill="red">6.2ms</text>
+  <text x="580" y="218" font-family="Arial" font-size="13" fill="white">6,100,000</text>
+
+</svg>
