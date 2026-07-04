@@ -1,44 +1,121 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300">
-  
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400">
+
   <!-- Background -->
-  <rect width="800" height="300" fill="#1a1a2e"/>
-  
+  <rect width="1200" height="400" fill="#1a1a2e"/>
+
   <!-- Heading -->
-  <text x="20" y="40" font-family="Arial" 
-        font-size="20" fill="#00b4d8" font-weight="bold">
-    Server Performance Report
-  </text>
-  
+  <text x="20" y="35" font-family="Arial" font-size="18" fill="#00b4d8" font-weight="bold">JVM Performance Report</text>
+
   <!-- Header Row Background -->
-  <rect x="10" y="55" width="780" height="35" fill="#00b4d8"/>
-  
+  <rect x="10" y="50" width="1180" height="35" fill="#00b4d8"/>
+
   <!-- Header Text -->
-  <text x="20" y="78" font-family="Arial" font-size="14" fill="white" font-weight="bold">Server Name</text>
-  <text x="300" y="78" font-family="Arial" font-size="14" fill="white" font-weight="bold">Response Time</text>
-  <text x="580" y="78" font-family="Arial" font-size="14" fill="white" font-weight="bold">Request Count</text>
-  
+  <text x="15" y="73" font-family="Arial" font-size="11" fill="white" font-weight="bold">Host</text>
+  <text x="370" y="73" font-family="Arial" font-size="11" fill="white" font-weight="bold">Baseline (%)</text>
+  <text x="470" y="73" font-family="Arial" font-size="11" fill="white" font-weight="bold">Healthy</text>
+  <text x="550" y="73" font-family="Arial" font-size="11" fill="white" font-weight="bold">Warning</text>
+  <text x="640" y="73" font-family="Arial" font-size="11" fill="white" font-weight="bold">Critical</text>
+  <text x="720" y="73" font-family="Arial" font-size="11" fill="white" font-weight="bold">Total</text>
+  <text x="800" y="73" font-family="Arial" font-size="11" fill="white" font-weight="bold">JVM Score</text>
+
   <!-- Row 1 -->
-  <rect x="10" y="90" width="780" height="35" fill="#16213e"/>
-  <text x="20" y="113" font-family="Arial" font-size="13" fill="white">Server-01</text>
-  <text x="300" y="113" font-family="Arial" font-size="13" fill="lightgreen">1.8ms</text>
-  <text x="580" y="113" font-family="Arial" font-size="13" fill="white">1,200,000</text>
-  
+  <rect x="10" y="85" width="1180" height="30" fill="#16213e"/>
+  <text x="15" y="105" font-family="Arial" font-size="10" fill="white">10.10.10.213 - smcpapplv605006.i2cinc.local</text>
+  <text x="390" y="105" font-family="Arial" font-size="10" fill="white">34.16</text>
+  <text x="480" y="105" font-family="Arial" font-size="10" fill="lightgreen">216</text>
+  <text x="565" y="105" font-family="Arial" font-size="10" fill="orange">24</text>
+  <text x="650" y="105" font-family="Arial" font-size="10" fill="red">1</text>
+  <text x="730" y="105" font-family="Arial" font-size="10" fill="white">241</text>
+  <text x="820" y="105" font-family="Arial" font-size="10" fill="lightgreen">96.72</text>
+
   <!-- Row 2 -->
-  <rect x="10" y="125" width="780" height="35" fill="#0f3460"/>
-  <text x="20" y="148" font-family="Arial" font-size="13" fill="white">Server-02</text>
-  <text x="300" y="148" font-family="Arial" font-size="13" fill="lightgreen">2.1ms</text>
-  <text x="580" y="148" font-family="Arial" font-size="13" fill="white">980,000</text>
-  
+  <rect x="10" y="115" width="1180" height="30" fill="#0f3460"/>
+  <text x="15" y="135" font-family="Arial" font-size="10" fill="white">10.10.10.115 - smcpappprlv317006.i2cinc.local</text>
+  <text x="390" y="135" font-family="Arial" font-size="10" fill="white">34.06</text>
+  <text x="480" y="135" font-family="Arial" font-size="10" fill="lightgreen">214</text>
+  <text x="565" y="135" font-family="Arial" font-size="10" fill="orange">27</text>
+  <text x="650" y="135" font-family="Arial" font-size="10" fill="lightgreen">0</text>
+  <text x="730" y="135" font-family="Arial" font-size="10" fill="white">241</text>
+  <text x="820" y="135" font-family="Arial" font-size="10" fill="lightgreen">96.64</text>
+
   <!-- Row 3 -->
-  <rect x="10" y="160" width="780" height="35" fill="#16213e"/>
-  <text x="20" y="183" font-family="Arial" font-size="13" fill="white">Server-03</text>
-  <text x="300" y="183" font-family="Arial" font-size="13" fill="orange">3.5ms</text>
-  <text x="580" y="183" font-family="Arial" font-size="13" fill="white">4,500,000</text>
-  
+  <rect x="10" y="145" width="1180" height="30" fill="#16213e"/>
+  <text x="15" y="165" font-family="Arial" font-size="10" fill="white">10.10.10.122 - smcpappprlv318207.i2cinc.local</text>
+  <text x="390" y="165" font-family="Arial" font-size="10" fill="white">33.81</text>
+  <text x="480" y="165" font-family="Arial" font-size="10" fill="lightgreen">201</text>
+  <text x="565" y="165" font-family="Arial" font-size="10" fill="orange">18</text>
+  <text x="650" y="165" font-family="Arial" font-size="10" fill="red">22</text>
+  <text x="730" y="165" font-family="Arial" font-size="10" fill="white">241</text>
+  <text x="820" y="165" font-family="Arial" font-size="10" fill="orange">91.37</text>
+
   <!-- Row 4 -->
-  <rect x="10" y="195" width="780" height="35" fill="#0f3460"/>
-  <text x="20" y="218" font-family="Arial" font-size="13" fill="white">Server-04</text>
-  <text x="300" y="218" font-family="Arial" font-size="13" fill="red">6.2ms</text>
-  <text x="580" y="218" font-family="Arial" font-size="13" fill="white">6,100,000</text>
+  <rect x="10" y="175" width="1180" height="30" fill="#0f3460"/>
+  <text x="15" y="195" font-family="Arial" font-size="10" fill="white">10.10.10.123 - smcpappprlv318307.i2cinc.local</text>
+  <text x="390" y="195" font-family="Arial" font-size="10" fill="white">33.97</text>
+  <text x="480" y="195" font-family="Arial" font-size="10" fill="lightgreen">214</text>
+  <text x="565" y="195" font-family="Arial" font-size="10" fill="orange">5</text>
+  <text x="650" y="195" font-family="Arial" font-size="10" fill="red">22</text>
+  <text x="730" y="195" font-family="Arial" font-size="10" fill="white">241</text>
+  <text x="820" y="195" font-family="Arial" font-size="10" fill="orange">92.99</text>
+
+  <!-- Row 5 -->
+  <rect x="10" y="205" width="1180" height="30" fill="#16213e"/>
+  <text x="15" y="225" font-family="Arial" font-size="10" fill="white">10.10.10.149 - smcpapprlv604908.i2cinc.local</text>
+  <text x="390" y="225" font-family="Arial" font-size="10" fill="white">33.86</text>
+  <text x="480" y="225" font-family="Arial" font-size="10" fill="lightgreen">210</text>
+  <text x="565" y="225" font-family="Arial" font-size="10" fill="orange">9</text>
+  <text x="650" y="225" font-family="Arial" font-size="10" fill="red">22</text>
+  <text x="730" y="225" font-family="Arial" font-size="10" fill="white">241</text>
+  <text x="820" y="225" font-family="Arial" font-size="10" fill="orange">92.49</text>
+
+  <!-- Row 6 -->
+  <rect x="10" y="235" width="1180" height="30" fill="#0f3460"/>
+  <text x="15" y="255" font-family="Arial" font-size="10" fill="white">10.10.10.246 - smcpappplv605709.i2cinc.local</text>
+  <text x="390" y="255" font-family="Arial" font-size="10" fill="white">34.11</text>
+  <text x="480" y="255" font-family="Arial" font-size="10" fill="lightgreen">215</text>
+  <text x="565" y="255" font-family="Arial" font-size="10" fill="orange">4</text>
+  <text x="650" y="255" font-family="Arial" font-size="10" fill="red">22</text>
+  <text x="730" y="255" font-family="Arial" font-size="10" fill="white">241</text>
+  <text x="820" y="255" font-family="Arial" font-size="10" fill="orange">93.11</text>
+
+  <!-- Row 7 -->
+  <rect x="10" y="265" width="1180" height="30" fill="#16213e"/>
+  <text x="15" y="285" font-family="Arial" font-size="10" fill="white">10.10.10.65 - smcpappprlv604310.i2cinc.local</text>
+  <text x="390" y="285" font-family="Arial" font-size="10" fill="white">34.07</text>
+  <text x="480" y="285" font-family="Arial" font-size="10" fill="lightgreen">202</text>
+  <text x="565" y="285" font-family="Arial" font-size="10" fill="orange">17</text>
+  <text x="650" y="285" font-family="Arial" font-size="10" fill="red">22</text>
+  <text x="730" y="285" font-family="Arial" font-size="10" fill="white">241</text>
+  <text x="820" y="285" font-family="Arial" font-size="10" fill="orange">91.49</text>
+
+  <!-- Row 8 -->
+  <rect x="10" y="295" width="1180" height="30" fill="#0f3460"/>
+  <text x="15" y="315" font-family="Arial" font-size="10" fill="white">10.10.10.66 - smcpapppriv604607.i2cinc.local</text>
+  <text x="390" y="315" font-family="Arial" font-size="10" fill="white">34.16</text>
+  <text x="480" y="315" font-family="Arial" font-size="10" fill="lightgreen">202</text>
+  <text x="565" y="315" font-family="Arial" font-size="10" fill="orange">17</text>
+  <text x="650" y="315" font-family="Arial" font-size="10" fill="red">22</text>
+  <text x="730" y="315" font-family="Arial" font-size="10" fill="white">241</text>
+  <text x="820" y="315" font-family="Arial" font-size="10" fill="orange">91.49</text>
+
+  <!-- Row 9 -->
+  <rect x="10" y="325" width="1180" height="30" fill="#16213e"/>
+  <text x="15" y="345" font-family="Arial" font-size="10" fill="white">10.10.10.83 - smcpappriv6015808.i2cinc.local</text>
+  <text x="390" y="345" font-family="Arial" font-size="10" fill="white">34.42</text>
+  <text x="480" y="345" font-family="Arial" font-size="10" fill="lightgreen">224</text>
+  <text x="565" y="345" font-family="Arial" font-size="10" fill="orange">17</text>
+  <text x="650" y="345" font-family="Arial" font-size="10" fill="lightgreen">0</text>
+  <text x="730" y="345" font-family="Arial" font-size="10" fill="white">241</text>
+  <text x="820" y="345" font-family="Arial" font-size="10" fill="lightgreen">97.88</text>
+
+  <!-- Row 10 -->
+  <rect x="10" y="355" width="1180" height="30" fill="#0f3460"/>
+  <text x="15" y="375" font-family="Arial" font-size="10" fill="white">10.10.10.97 - smcpappprlv33807.i2cinc.local</text>
+  <text x="390" y="375" font-family="Arial" font-size="10" fill="white">34.02</text>
+  <text x="480" y="375" font-family="Arial" font-size="10" fill="lightgreen">203</text>
+  <text x="565" y="375" font-family="Arial" font-size="10" fill="orange">16</text>
+  <text x="650" y="375" font-family="Arial" font-size="10" fill="red">22</text>
+  <text x="730" y="375" font-family="Arial" font-size="10" fill="white">241</text>
+  <text x="820" y="375" font-family="Arial" font-size="10" fill="orange">91.62</text>
 
 </svg>
